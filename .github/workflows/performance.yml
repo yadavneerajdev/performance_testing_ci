@@ -33,7 +33,7 @@ jobs:
       - name: Run k6 test
         run: k6 run --out junit=results.xml saucedemo_script.js
       - name: Upload k6 results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: k6-results
           path: results.xml
