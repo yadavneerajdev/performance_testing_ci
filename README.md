@@ -14,6 +14,7 @@ A simple Node.js application with automated performance testing using Lighthouse
 This project uses Lighthouse CI to automate performance testing. The workflow runs on every push and pull request to the main branch.
 
 The tests check:
+
 - Performance score >= 0.9
 - Accessibility score >= 0.9
 - Best practices score >= 0.9
@@ -22,6 +23,7 @@ The tests check:
 ## GitHub Workflow
 
 The `.github/workflows/performance.yml` file defines the CI pipeline that:
+
 - Sets up Node.js
 - Installs dependencies
 - Runs Lighthouse CI tests
