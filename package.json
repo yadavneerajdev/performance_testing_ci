@@ -1,0 +1,17 @@
+{
+  "name": "test-ci",
+  "version": "1.0.0",
+  "description": "A simple Node.js app for CI testing",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"No tests specified\"",
+    "lhci": "lhci autorun"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@lhci/cli": "^0.12.0"
+  }
+}
